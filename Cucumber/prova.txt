@@ -1,0 +1,41 @@
+Olá Ana, bom dia.
+
+Como nos falamos, segue teste.
+
+Para darmos andamento ao processo seletivo da oportunidade de Analista de Qualidade, é necessário realizar um avaliação solicitada pelo nosso cliente.
+Segue abaixo para, qualquer dúvida me avise.
+
+
+Walmart - Projeto de Automação de Testes com Cucumber
+
+Atualmente, nosso cliente utiliza Cucumber como nosso framework de automação e a ideia é avaliar como você se adaptaria ao mesmo.
+O tempo máximo para envio do link para baixarmos o projeto do Github é de uma semana corrida.
+
+Criação de Projeto de Testes Automatizados - BDD com cucumber
+O objetivo é criar um projeto de automação versionado no Github (https://github.com/), utilizando Cucumber, Capybara e HTTParty para automatizar cenários para as duas Features abaixo:
+
+1- No site do walmart.com.br, realizar a seguinte sequência de ações:
+§    Procurar pelo termo "tv" na busca
+§    Validar que a busca teve resultados
+§    Clicar em um dos resultados e validar que a página do produto abriu corretamente
+§    Adicionar o Produto ao carrinho
+§    Abrir o carrinho e validar que o mesmo foi adicionado com sucesso
+§    Realizar o login com sucesso (mas como desafio e também boa prática, não se deve colocar o usuario e senha no codigo do teste. Esses valores devem ser dinâmicos, sendo passados na hora que dispararmos a execução do teste).
+§    DESAFIO: Utilizar o conceito de Page Objects na automação!!!
+
+2 – Dado uma API pública e sua documentação em https://docs.acquia.com/mollom/api/rest/list, criar um teste que valide o seguinte:
+(deve-se utilizer a URL http://dev.mollom.com/v1/ para as chamadas nessa API):
+
+·         Criar um novo site definindo uma url e um email para o mesmo.
+·         Realizar uma chamada para validar que foi criado com sucesso
+·         Fazer um update somente da url desse site e validar que foi feito com sucesso
+·         Fazer um update somente do email desse site e validar que foi feito com sucesso
+·         DESAFIO: Utilize um conceito similar ao Page Object para encapsular as chamadas para a API.
+
+Data de envio: 11/11/2015
+Data para entrega (16/11/2015)
+
+Obs: Caso termine antes, pode enviar antes desse prazo.
+
+Qualquer dúvida me avise.
+Atc,
